@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+
+      <section id="hero">
+        <h1 id="heading">Ana's scrub</h1>
+        <p id="heading2">Quality and affordable scrubs for sale</p>
+        <button id="button">ADD PRODUCTS</button>
+    </section>
+    <main>
+      <div class="form-container">
+        <p id="form-message"></p>
+        <form id="form">
+          <div class="form-item">
+            <label for="id">ID</label>
+            <input type="number" id="id" />
+          </div>
+          <div class="form-item">
+            <label for="name">Name</label>
+            <input type="text" id="name" />
+          </div>
+          <div class="form-item">
+            <label for="category">Category</label>
+            <input type="text" id="category" />
+          </div>
+
+          <div class="form-item">
+            <label for="description">Description</label>
+            <textarea id="description"></textarea>
+          </div>
+
+          <div class="form-item">
+            <label for="img-url">Image URL</label>
+            <input type="text" id="img-url" />
+          </div>
+
+          <div class="form-item">
+            <label for="price">Price</label>
+            <input type="text" id="price" />
+          </div>
+
+          <button type="submit">Add Product</button>
+        </form>
+      </div>
+      <div id="products"></div>
+    </main>
+    <div id="footer">
+        <div><p id="footer2"><span id="watsapp">Whatsapp/call:</span> 0500478996,0534501517</p>
+        <div id="footer3">Location :Suhum</div>
+        <div id="footer4">Nationwide delivery at a fee</div> </div>
+    </div>
+
+  </body>
+</html>
